@@ -3,11 +3,10 @@
 
 int main()
 {
-    char str2[20];
+    char str1[20] = {"Hello "}, str2[20];
+
     printf("Please enter your name: ");
     scanf("%s", &str2);
-    printf("%s \n", strupr(str2));
-    printf("%s \n", strlwr(str2));
+    printf("%s \n", strcat(str1, str2));
     return 0;
-    
 }
